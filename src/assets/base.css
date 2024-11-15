@@ -1,0 +1,59 @@
+body {
+  background: linear-gradient(135deg, #2c3e50, #1f2b36, #007bff);
+  color: var(--color-text);
+  transition: color 0.5s, background-color 0.5s;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+button {
+  background-color: var(--vt-c-indigo);
+  color: var(--vt-c-white);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button:hover {
+  background-color: #1f2b36;
+}
+a {
+  color: var(--vt-c-indigo);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+a:hover {
+  color: #1f2b36;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-heading);
+  margin-bottom: 1rem;
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+.user-section {
+  align-items: flex-start;
+  padding: 20px;
+  margin-top: 0;
+  margin-left: 0;
+  width: 250%; 
+  max-width: 400px; 
+ 
+}
+.user-form {
+  margin-bottom: 50px;
+}
+.user-cards {
+  width: 100%;
+}
+.user-card {
+  margin-bottom: 10px; 
+}
